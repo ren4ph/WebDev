@@ -1,0 +1,9 @@
+7FFFFFFFFFFFFFFF #max BIGNUM in hex
+9223372036854775807 #max BIGNUM in Decimal
+
+#Delayed Print
+def delay_print(s = "EMPTY", delay = 0.09):
+		for char in s:
+				sys.stdout.write(char)
+				sys.stdout.flush()
+				time.sleep(delay)
